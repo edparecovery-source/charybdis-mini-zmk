@@ -14,6 +14,13 @@
         //     bindings = <&kp>, <&kp>;  // hold, tap
         // };
 
+        showscreen: showscreen {
+            compatible = "zmk,behavior-tap-dance";
+            #binding-cells = <0>;
+            tapping-term-ms = <250>;
+            bindings = <&kp LC(UP_ARROW)>, <&kp LG(UP_ARROW)>;
+        };
+
         mm_f1: num_or_f1 {
             compatible    = "zmk,behavior-mod-morph";
             #binding-cells = <0>;
