@@ -56,9 +56,9 @@
 // ├───────────────┼────────────────┼────────────────┼─────────────────┼─────────────────┼──────┤  ├──────┼──────────────────┼──────────────────┼─────────────────┼─────────────────┼─────────────┤
      &kp BACKSPACE   &ht_left LCMD A  &ht_left LALT S  &ht_left LCTRL D  &ht_left  LSHFT F  &kp G    &kp H   &ht_right RSHFT J  &ht_right RCTRL K  &ht_right LALT L  &ht_right RCMD SEMICOLON   &kp SQT
 // ├───────────────┼────────────────┼────────────────┼─────────────────┼─────────────────┼──────┤  ├──────┼──────────────────┼──────────────────┼─────────────────┼─────────────────┼─────────────┤
-     &kp  LSHFT        &lt 1 Z           &kp X            &kp C            &kp V             &kp B    &kp N    &kp M              &kp COMMA    &kp PERIOD  &lt 2 SLASH            &kp RSHFT
+     &kp  LSHFT        &lt 1 Z           &kp X            &kp C            &kp V             &kp B    &kp N    &kp M              &kp COMMA    &kp PERIOD  &lt 3 SLASH            &kp RSHFT
 // ╰───────────────┴────────────────┴────────────────┼─────────────────┼─────────────────┼──────┤  ├──────┼──────────────────┼──────────────────┴─────────────────┴─────────────────┴─────────────╯
-                                                             &td_bs 3 MB1  &kp BACKSPACE  &showscreen     &kp DELETE  &kp SPACE
+                                                             &td_bs 2 MB1  &kp BACKSPACE  &showscreen     &kp DELETE  &kp SPACE
                                                          // ╰──────────────────┴─────────┴──────╯  ╰──────────┴──────────────╯
             >;
         };

@@ -15,13 +15,7 @@
 
         CapsWord {
             bindings = <&caps_word>;
-            key-positions = <17 18>;
-            layers = <0>;
-        };
-
-        combo_esc_left {
-            bindings = <&kp ESC>;
-            key-positions = <1 2>;
+            key-positions = <29 30>;
             layers = <0>;
         };
 
@@ -44,11 +38,6 @@
         combo_middle_click {
             bindings = <&mkp MCLK>;
             key-positions = <15 16>;
-        };
-
-        combo_right_click {
-            bindings = <&mkp RCLK>;
-            key-positions = <27 28>;
         };
 
         combo_bootloader_left {
@@ -83,14 +72,7 @@
 
         combo_all_windows {
             bindings = <&ht_combo_all_windows 0 0>;
-            key-positions = <32 33>;
-            layers = <0>;
-        };
-
-        combo_app_windows {
-            // KDE Present Windows (current app/window class).
-            bindings = <&ht_combo_app_windows 0 0>;
-            key-positions = <31 32>;
+            key-positions = <33 34>;
             layers = <0>;
         };
 
