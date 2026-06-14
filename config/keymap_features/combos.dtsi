@@ -76,9 +76,14 @@
             layers = <0>;
         };
 
-        right_backspc {
+        left_backspc {
             key-positions = <27 28>;
             bindings = <&kp BACKSPACE>;
+        };
+
+        right_enter {
+            key-positions = <31 32>;
+            bindings = <&kp ENTER>;
         };
 
         lockscreen {
