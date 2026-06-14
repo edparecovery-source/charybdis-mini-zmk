@@ -27,7 +27,7 @@
 
         combo_esc_right {
             bindings = <&kp ESC>;
-            key-positions = <9 10>;
+            key-positions = <7 8>;
             layers = <0>;
         };
 
@@ -43,7 +43,7 @@
         
         combo_middle_click {
             bindings = <&mkp MCLK>;
-            key-positions = <26 27>;
+            key-positions = <15 16>;
         };
 
         combo_right_click {
@@ -92,6 +92,21 @@
             bindings = <&ht_combo_app_windows 0 0>;
             key-positions = <31 32>;
             layers = <0>;
+        };
+
+        right_backspc {
+            key-positions = <27 28>;
+            bindings = <&kp BACKSPACE>;
+        };
+
+        lockscreen {
+            bindings = <&kp LG(LC(Q))>;
+            key-positions = <05 06>;
+        };
+
+        printscreen {
+            bindings = <&kp LG(RS(N5))>;
+            key-positions = <17 18>;
         };
     };
 };

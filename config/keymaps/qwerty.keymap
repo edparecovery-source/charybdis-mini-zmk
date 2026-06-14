@@ -64,7 +64,7 @@
         };
 
         NUM {
-            display-name = "Num";
+            display-name = "Numbers";
             bindings = <
     &trans    &trans  &trans        &trans           &trans        &trans         &trans   &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &trans  &trans
     &trans    &none   &trans        &kp LC(LS(TAB))  &kp LC(TAB)   &trans         &trans   &kp NUMBER_4  &kp N5        &kp NUMBER_6  &trans  &trans
@@ -74,7 +74,7 @@
         };
 
         NAV {
-            display-name = "Nav";
+            display-name = "Move";
             bindings = <
      &trans  &trans   &trans  &trans  &trans   &trans      &trans  &kp K_MUTE  &kp C_VOLUME_UP  &kp C_VOLUME_DOWN  &trans   &trans
      &trans  &kp F12  &kp F7  &kp F8  &kp F10  &trans      &trans  &kp LEFT    &kp UP_ARROW     &kp DOWN_ARROW     &kp RIGHT  &trans
@@ -84,7 +84,7 @@
         };
 
         SYM {
-            display-name = "Sym";
+            display-name = "Symbols";
             bindings = <
 &none  &kp TILDE  &kp DLLR  &kp CARET  &move_line_up    &mc_add_above      &kp AMPS   &kp PLUS     &kp LBKT  &kp RBKT  &kp PRCNT  &kp BSLH
 &none  &kp UNDER  &kp LT    &kp GT     &kp BACKSPACE    &delete_line       &kp GRAVE  &kp KP_MINUS &kp LPAR  &kp RPAR  &kp ASTRK  &kp PIPE
