@@ -14,6 +14,15 @@
         //     bindings = <&kp>, <&kp>;  // hold, tap
         // };
 
+        td_bs: td_bs {
+            compatible = "zmk,behavior-hold-tap";
+            #binding-cells = <2>;
+            flavor = "hold-preferred";
+            tapping-term-ms = <200>;
+            hold-while-undecided;
+            bindings = <&mo>, <&mkp>;
+        };
+
         showscreen: showscreen {
             compatible = "zmk,behavior-tap-dance";
             #binding-cells = <0>;
